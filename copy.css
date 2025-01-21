@@ -1,0 +1,134 @@
+body{
+    color: white;
+    background-image: url(backing2.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    justify-content: flex-end;
+  
+    
+    
+    
+}
+.left{
+display: inline-block;
+position: absolute;
+left: 0px;
+top: 0px;
+height: 2px;}
+
+.left img{
+    height: 175px;
+    width: 80px;
+    left: 2px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mid{ 
+    border-radius: 12px;
+display: block;
+top: 10px;
+width: 150%;
+padding-right: 1px;
+margin-right: 5px;
+margin: 20px auto;}
+.right{
+display: inline-block;
+position: absolute;
+right: 34px;
+top: 20px;}
+.navbar{ display: inline-block;
+
+ }
+ .btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 6px 5px;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+ } 
+ .btn:hover{
+
+    background-color: yellowgreen;
+    
+ }
+ .navbar li{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    
+    
+
+}.left img{
+    width: 250px;
+    filter: invert(100%);
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.left div{
+    text-align: center;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    width: 200px;
+    height: 200px;
+    
+    
+
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(178, 238, 13);
+}
+.container{
+    
+    margin: 106px 80px;
+    margin-left: 1px;
+    
+    padding: 75px; ;
+    width: 250px;
+    border-radius: 10px;
+    height: 250px;
+    left: 4em;
+}
+.form-group input{
+    text-align: center;
+    margin: 15px;
+    display: block;
+    width: 234px;
+    padding: 8px;
+    border: 3px solid rgb(5, 250, 5);
+    border-radius: 17px;
+    font-size: 15PX;
+    left: 5px;
+
+}
+.container  h2{
+    text-align: center;
+    position: relative;
+}
+.container button{
+    display: block;
+    width: 250px;
+    margin-right: 10px;
+    border-color: rgb(5, 253, 5);
+}
+
+.box{
+    display: inline-block;
+        border: 5px solid black;
+        width: 250px;
+        height: 200px;
+        margin: 12px;
+    }
+    
+    
